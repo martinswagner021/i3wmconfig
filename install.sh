@@ -6,4 +6,4 @@ echo $(sudo cp ./bin/i3-sensible-terminal /bin/)
 echo $(cp ./bg.jpg ~/Pictures/)
 echo $(cp ./config/i3/config ~/.config/i3/)
 echo $(sudo cp ./etc/i3blocks.conf /etc/)
-#test
+#hello world

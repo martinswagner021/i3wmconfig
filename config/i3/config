@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:ubuntu monospace 10
+font pango:noto mono 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -47,7 +47,7 @@ bindsym $mod+Return exec "i3-sensible-terminal --hide-menubar"
 bindsym $mod+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec "dmenu_run -sb '#EEB250'"
+bindsym $mod+d exec "dmenu_run -sb '#e60000'"
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
@@ -182,7 +182,7 @@ bar {
 	position top
 
 	colors{
-		focused_workspace  #E5A43A #EEB250 #FFFFFF
+		focused_workspace  #e60000 #e60000 #FFFFFF
 	}
 }
 
@@ -200,6 +200,6 @@ exec --no-startup-id compton
 
 # Colors settings
 # class                 border  backgr. text    indicator child_border
-client.focused          #E5A43A #EEB250 #ffffff #000000   #E5A43A
+client.focused          #5e73ff #5e73ff #ffffff #e60000 #5e73ff
 
 #client.background       #ffffff

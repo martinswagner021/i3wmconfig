@@ -1,4 +1,4 @@
-# This is my i3wm configs
+# These are my i3wm configs
 
 Here you may find some themes also, each directory in the repository represents an unique theme.
 
